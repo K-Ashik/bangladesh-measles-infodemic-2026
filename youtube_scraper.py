@@ -6,7 +6,7 @@ from googleapiclient.errors import HttpError
 
 # 1. SETUP
 # --- PASTE YOUR API KEY HERE ---
-API_KEY = "AIzaSyCmIZKhOAhlEYNAqe95r-RaNO3cX7Mj8fQ" 
+API_KEY = "API_KEY" 
 youtube = build('youtube', 'v3', developerKey=API_KEY)
 
 # 2. THE GLOBAL QUERY
